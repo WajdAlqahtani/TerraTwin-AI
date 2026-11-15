@@ -227,7 +227,7 @@ def make_map(df):
     if px is None:
         st.info("Install Plotly to display the interactive map: pip install plotly")
         return
-    fig = px.scatter_mapbox(
+    fig = px.scatter_map(
         df,
         lat="latitude",
         lon="longitude",
