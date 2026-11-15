@@ -238,8 +238,8 @@ def make_map(df):
         color_discrete_sequence=[CYAN],
     )
     fig.update_layout(
-        mapbox_style="carto-darkmatter",
-        mapbox_center={"lat": 24.0, "lon": 45.0},
+        map_style="carto-darkmatter",
+        map_center={"lat": 24.0, "lon": 45.0},
         paper_bgcolor="rgba(0,0,0,0)",
         plot_bgcolor="rgba(0,0,0,0)",
         margin={"l": 0, "r": 0, "t": 0, "b": 0},
