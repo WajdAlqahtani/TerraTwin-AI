@@ -493,11 +493,7 @@ def show_mission_configuration():
         )
 
     # AI Natural Language Box (Stage 1)
-    st.markdown(
-        '<div class="section-kicker">OPTIONAL · AI MISSION UNDERSTANDING (STAGE 1)</div>'
-        '<div class="section-heading">Describe your mission in natural language</div>',
-        unsafe_allow_html=True,
-    )
+    
  
 
     st.markdown(
